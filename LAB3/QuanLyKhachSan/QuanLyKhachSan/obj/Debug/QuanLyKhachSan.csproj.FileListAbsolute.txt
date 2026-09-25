@@ -1,0 +1,10 @@
+D:\DAIHOC\NAM_4_HK1\Mon_hoc\PPPTPM_Huong_Doi_Tuong\LAB2\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+D:\DAIHOC\NAM_4_HK1\Mon_hoc\PPPTPM_Huong_Doi_Tuong\LAB2\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+D:\DAIHOC\NAM_4_HK1\Mon_hoc\PPPTPM_Huong_Doi_Tuong\LAB2\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+D:\DAIHOC\NAM_4_HK1\Mon_hoc\PPPTPM_Huong_Doi_Tuong\LAB2\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.AssemblyReference.cache
+D:\DAIHOC\NAM_4_HK1\Mon_hoc\PPPTPM_Huong_Doi_Tuong\LAB2\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Forms.FrmMain.resources
+D:\DAIHOC\NAM_4_HK1\Mon_hoc\PPPTPM_Huong_Doi_Tuong\LAB2\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+D:\DAIHOC\NAM_4_HK1\Mon_hoc\PPPTPM_Huong_Doi_Tuong\LAB2\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.cache
+D:\DAIHOC\NAM_4_HK1\Mon_hoc\PPPTPM_Huong_Doi_Tuong\LAB2\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.CoreCompileInputs.cache
+D:\DAIHOC\NAM_4_HK1\Mon_hoc\PPPTPM_Huong_Doi_Tuong\LAB2\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+D:\DAIHOC\NAM_4_HK1\Mon_hoc\PPPTPM_Huong_Doi_Tuong\LAB2\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
