@@ -98,8 +98,8 @@ erDiagram
         datetime NgayTraThucTe
     }
     CHITIETDATPHONG {
-        varchar SoPhieuDat PK_FK
-        varchar SoPhong PK_FK
+        varchar SoPhieuDat PK
+        varchar SoPhong PK
         int SoNguoi
     }
     NGUOILUUTRU {
@@ -124,8 +124,8 @@ erDiagram
         varchar MaNV FK
     }
     CHITIETPHIEUSUDUNGDV {
-        varchar SoPhieuSDDV PK_FK
-        varchar MaDV PK_FK
+        varchar SoPhieuSDDV PK
+        varchar MaDV PK
         int SoLuong
         decimal DonGia
         decimal ThanhTien
@@ -145,14 +145,14 @@ erDiagram
         decimal TongTien
     }
     CHITIETPHIEUDENBU {
-        varchar SoPhieuDenBu PK_FK
-        varchar MaTienNghi PK_FK
+        varchar SoPhieuDenBu PK
+        varchar MaTienNghi PK
         nvarchar MucDoThietHai
         decimal SoTien
     }
     HOADON {
         varchar SoHoaDon PK
-        varchar SoPhieuDat FK_UQ
+        varchar SoPhieuDat FK
         datetime NgayLap
         varchar MaNV FK
         int SoNgayTinhTien
