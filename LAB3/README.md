@@ -10,10 +10,11 @@
 
 ## Thư mục
 - `diagrams/ERD.drawio`, `ERD.png`: sơ đồ CSDL (vẽ bằng draw.io).
+- `sql/QuanLyHotelDB.sql`: tạo CSDL và dữ liệu mẫu.
 - `src/QuanLyHotel/`: mã nguồn (Forms → Services → Data).
 
 ## Cách chạy
-1. Tạo CSDL `QuanLyHotelDB` trên SQL Server (script SQL chưa có trong repo, cần bổ sung).
+1. Chạy `sql/QuanLyHotelDB.sql` trong SSMS để tạo CSDL `QuanLyHotelDB`.
 2. Sửa chuỗi kết nối trong `src/QuanLyHotel/QuanLyHotel/App.config`.
 3. Mở `QuanLyHotel.sln` bằng Visual Studio 2022, nhấn F5.
 

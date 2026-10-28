@@ -1,4 +1,4 @@
-# LAB8 – Quản lý cửa hàng nước giải khát
+# LAB8 - Quản lý cửa hàng nước giải khát
 
 - Họ tên: Trần Thiện Nhân
 - MSSV: 1250080123
@@ -13,16 +13,16 @@ Quy tắc chính: bán hàng theo tồn kho, thiếu hàng thì lập phiếu h�
 ## Thư mục
 | Thư mục | Nội dung |
 |---|---|
-| `bao_cao/` | File Word trả lời 6 câu thực hành |
-| `diagrams/` | `Bai2_UML.drawio` (5 trang: use case tổng quát, class, use case phân rã, activity, sequence), `ERD.drawio`, ảnh PNG |
+| `bao_cao/` | File Word trả lời 6 câu |
+| `diagrams/` | `LAB8_UML.drawio` (5 trang: class, use case tổng quát, use case phân rã, activity, sequence), `ERD.drawio` và ảnh PNG |
 | `sql/` | `01_schema.sql` tạo CSDL, `02_seed.sql` dữ liệu mẫu, `03_test.sql` test ràng buộc |
-| `src/CuaHangNuocGiaiKhat/` | Mã nguồn WinForms |
+| `src/CuaHangNuocGiaiKhat/` | Mã nguồn WinForms (file `.sln`) |
 | `test/TestCases.md` | Test case và bảng truy vết yêu cầu → UML → Form/Service → bảng → test |
 
 ## Cách chạy
 1. Trong SSMS chạy lần lượt `sql/01_schema.sql`, `sql/02_seed.sql`.
-2. Sửa `Server=` trong `src/CuaHangNuocGiaiKhat/App.config` cho đúng máy.
-3. Mở `CuaHangNuocGiaiKhat.csproj` bằng Visual Studio 2022, nhấn F5.
+2. Sửa `Server=` trong `src/CuaHangNuocGiaiKhat/CuaHangNuocGiaiKhat/App.config` cho đúng máy.
+3. Mở `src/CuaHangNuocGiaiKhat/CuaHangNuocGiaiKhat.sln` bằng Visual Studio 2022, nhấn F5.
 4. Kiểm thử: chạy `sql/03_test.sql` (kết quả PASS/FAIL), rồi làm theo `test/TestCases.md`.
 
 ## Giả định

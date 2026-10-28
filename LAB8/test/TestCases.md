@@ -42,7 +42,7 @@ Kết quả thực tế ghi ở cột cuối khi chạy trên máy cá nhân (ch
 
 ## 3. Ma trận truy vết
 
-| Yêu cầu nghiệp vụ | UML (diagrams/Bai2_UML.drawio) | Form → Service | Bảng CSDL | Test |
+| Yêu cầu nghiệp vụ | UML (diagrams/LAB8_UML.drawio) | Form → Service | Bảng CSDL | Test |
 |---|---|---|---|---|
 | Quản lý danh mục nhãn hiệu, NCC, nước giải khát, khách hàng | Câu 1 Use Case; Câu 2–3 Class | FrmDanhMuc → DanhMucService | LoaiNuocGiaiKhat, NhaCungUng, NuocGiaiKhat, KhachHang, NhanVien | TC-19, TC-20, TC-DB06 |
 | Đặt hàng nhà cung ứng | Câu 4 Use Case phân rã | FrmMuaHang → MuaHangService.TaoDonDatHang | DonDatHang, ChiTietDonDatHang | TC-07 |
