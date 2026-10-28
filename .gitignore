@@ -4,5 +4,7 @@
 .vs/
 *.user
 *.suo
-*.cachepackages/
+*.cache
+packages/
 *.pdb
+__pycache__/
