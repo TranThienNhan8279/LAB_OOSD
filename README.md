@@ -15,3 +15,5 @@ Bài thực hành môn Phân tích thiết kế hướng đối tượng – Tr�
 
 Mỗi thư mục LABn có `README.md`; nếu có thì gồm `bao_cao/` (Word), `diagrams/` (draw.io + PNG), `sql/`, `src/`, `test/`.
 Mọi sơ đồ được vẽ bằng draw.io (file `.drawio` kèm ảnh `.png`).
+
+File Word tổng kết toàn bộ các lab: `tong_ket/TONG_KET_LAB_OOSD.docx`.
