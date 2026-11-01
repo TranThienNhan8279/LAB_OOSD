@@ -1,6 +1,6 @@
 # LAB_OOSD
 
-Bài thực hành môn Phân tích thiết kế hướng đối tượng – Trần Thiện Nhân, 12_ĐH_CNPM2.
+Bài thực hành môn Phương pháp phát triển phần mềm hướng đối tượng – Trần Thiện Nhân, 12_ĐH_CNPM2.
 
 | Lab | Đề tài |
 |---|---|

@@ -3,7 +3,7 @@
 - Họ tên: Trần Thiện Nhân
 - MSSV: 1250080123
 - Lớp: 12_ĐH_CNPM2
-- Môn: Phân tích thiết kế hướng đối tượng
+- Môn: Phương pháp phát triển phần mềm hướng đối tượng
 
 ## Nội dung
 Phân tích, thiết kế UML, CSDL SQL Server và ứng dụng WinForms (C#, .NET Framework 4.7.2, kiến trúc Forms → Services → Data).
