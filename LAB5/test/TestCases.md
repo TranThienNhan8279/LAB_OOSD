@@ -43,7 +43,7 @@ Cột "Thực tế" ghi lại khi chạy trên máy cá nhân.
 
 ## 3. Truy vết
 
-| Yêu cầu | UML (diagrams/LAB5_UML.drawio) | Form → Service | Bảng | Test |
+| Yêu cầu | UML (diagrams/LAB5_01 … LAB5_05_*.drawio (mỗi sơ đồ một file)) | Form → Service | Bảng | Test |
 |---|---|---|---|---|
 | Thông tin tour, nơi dừng chân, điểm tham quan | Câu 1, 2, 3 (UC01–UC03) | FrmTour → DanhMucService | Tour, DiemDung, PhuongTien, DiemThamQuan, Tour_DiemThamQuan | TC-DB04 |
 | Chuyến đi theo lịch công ty | Câu 3 (UC04) | FrmTour → DanhMucService | ChuyenDi | TC-DB03 |

@@ -65,7 +65,7 @@ Chạy `sql/03_test.sql`, mỗi dòng kết quả là PASS hoặc FAIL.
 
 ## 3. Truy vết
 
-| Yêu cầu | UML (diagrams/LAB7_UML.drawio) | Form → Service | Bảng | Test |
+| Yêu cầu | UML (diagrams/LAB7_01 … LAB7_05_*.drawio (mỗi sơ đồ một file)) | Form → Service | Bảng | Test |
 |---|---|---|---|---|
 | Tuyển dụng, thử việc, điều khoản | Câu 3 (UC02), Câu 4, 5 | FrmNhanVien → NhanSuService.TuyenDung | NhanVien, QuyetDinhTuyenDung | TC-01…04 |
 | Hợp đồng ngắn hạn, dài hạn sau thử việc | Câu 3 (UC03), Câu 4, 5 | FrmNhanVien → NhanSuService.KyHopDong | HopDong | TC-05…08, DB01, DB02 |

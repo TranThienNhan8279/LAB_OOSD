@@ -54,7 +54,7 @@ Chạy `sql/03_test.sql`, mỗi dòng kết quả là PASS hoặc FAIL.
 
 ## 3. Truy vết
 
-| Yêu cầu | UML (diagrams/LAB6_UML.drawio) | Form → Service | Bảng | Test |
+| Yêu cầu | UML (diagrams/LAB6_01 … LAB6_05_*.drawio (mỗi sơ đồ một file)) | Form → Service | Bảng | Test |
 |---|---|---|---|---|
 | Phiếu đăng ký, lệ phí năm, cấp hồ sơ | Câu 1, 2, 3 (UC01–UC04) | FrmDangKy → HoSoService.DangKyLanDau | BenhNhan, PhieuDangKy, LePhi, HoSoBenhAn | TC-01…05, DB01, DB02 |
 | Tra cứu hồ sơ bằng mã hoặc thông tin khác | Câu 3 (UC05), Câu 4 | FrmDangKy → HoSoService.TraCuu | HoSoBenhAn, BenhNhan | TC-06, 07, 08 |

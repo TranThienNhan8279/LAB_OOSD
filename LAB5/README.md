@@ -11,7 +11,7 @@ Bài 6 - quản lý công ty du lịch. Làm đủ 6 câu UML, thiết kế CSDL
 | Thư mục | Nội dung |
 |---|---|
 | `bao_cao/` | File Word trả lời 6 câu |
-| `diagrams/` | `LAB5_UML.drawio` (5 trang: class, use case tổng quát, use case phân rã, activity, sequence), `ERD.drawio` và ảnh PNG |
+| `diagrams/` | `LAB5_01 … LAB5_05_*.drawio (mỗi sơ đồ một file)` (5 trang: class, use case tổng quát, use case phân rã, activity, sequence), `ERD.drawio` và ảnh PNG |
 | `sql/` | `01_schema.sql` tạo CSDL, `02_seed.sql` dữ liệu mẫu, `03_test.sql` test ràng buộc |
 | `src/QuanLyDuLich/` | Mã nguồn WinForms |
 | `test/TestCases.md` | Test case và bảng truy vết |

@@ -14,7 +14,7 @@ Quy tắc chính: bán hàng theo tồn kho, thiếu hàng thì lập phiếu h�
 | Thư mục | Nội dung |
 |---|---|
 | `bao_cao/` | File Word trả lời 6 câu |
-| `diagrams/` | `LAB8_UML.drawio` (5 trang: class, use case tổng quát, use case phân rã, activity, sequence), `ERD.drawio` và ảnh PNG |
+| `diagrams/` | `LAB8_01 … LAB8_05_*.drawio (mỗi sơ đồ một file)` (5 trang: class, use case tổng quát, use case phân rã, activity, sequence), `ERD.drawio` và ảnh PNG |
 | `sql/` | `01_schema.sql` tạo CSDL, `02_seed.sql` dữ liệu mẫu, `03_test.sql` test ràng buộc |
 | `src/CuaHangNuocGiaiKhat/` | Mã nguồn WinForms (file `.sln`) |
 | `test/TestCases.md` | Test case và bảng truy vết yêu cầu → UML → Form/Service → bảng → test |

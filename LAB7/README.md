@@ -11,7 +11,7 @@ Bài 7 - quản lý nhân sự. Làm đủ 6 câu UML, thiết kế CSDL SQL Ser
 | Thư mục | Nội dung |
 |---|---|
 | `bao_cao/` | File Word trả lời 6 câu |
-| `diagrams/` | `LAB7_UML.drawio` (5 trang: class, use case tổng quát, use case phân rã, activity, sequence), `ERD.drawio` và ảnh PNG |
+| `diagrams/` | `LAB7_01 … LAB7_05_*.drawio (mỗi sơ đồ một file)` (5 trang: class, use case tổng quát, use case phân rã, activity, sequence), `ERD.drawio` và ảnh PNG |
 | `sql/` | `01_schema.sql` tạo CSDL, `02_seed.sql` dữ liệu mẫu, `03_test.sql` test ràng buộc |
 | `src/QuanLyNhanSu/` | Mã nguồn WinForms |
 | `test/TestCases.md` | Test case và bảng truy vết |
