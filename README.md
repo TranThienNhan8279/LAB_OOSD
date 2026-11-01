@@ -17,4 +17,4 @@ Bài thực hành môn Phương pháp phát triển phần mềm hướng đối
 Mỗi thư mục LABn có `README.md`; nếu có thì gồm `bao_cao/` (Word), `diagrams/` (draw.io + PNG), `sql/`, `src/`, `test/`.
 Mọi sơ đồ được vẽ bằng draw.io (file `.drawio` kèm ảnh `.png`).
 
-File Word tổng hợp các lab: `tong_ket/TONG_KET_LAB_OOSD.docx`. File sơ đồ draw.io của các lab nằm trong thư mục `IMAGES/`.
+File Word tổng hợp các lab: `tong_ket/1250080123_TranThienNhan_CNPM2_TonghopLAB.docx`. File sơ đồ draw.io của các lab nằm trong thư mục `IMAGES/`.
