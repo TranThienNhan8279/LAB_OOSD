@@ -4,6 +4,7 @@ Bài thực hành môn Phân tích thiết kế hướng đối tượng – Tr�
 
 | Lab | Đề tài |
 |---|---|
+| LAB0 | Cài đặt và kiểm tra môi trường (JDK, Maven, Git, IntelliJ) |
 | LAB1 | Đặc tả yêu cầu, Use Case (Bài 1, Bài 2) |
 | LAB2 | Quản lý thư viện |
 | LAB3 | Quản lý khách sạn |
