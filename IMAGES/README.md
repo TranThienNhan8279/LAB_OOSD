@@ -4,6 +4,7 @@ File sơ đồ phân tích và thiết kế (draw.io / diagrams.net) của các 
 
 | Thư mục | File |
 |---|---|
+| LAB0 | (không có sơ đồ, chỉ cài đặt môi trường) |
 | LAB1 | `LAB1_Bai1_UseCase.drawio`, `LAB1_Bai2_UseCase.drawio` |
 | LAB3 | `LAB3_ERD.drawio` |
 | LAB4 | `LAB4_UML.drawio` (6 trang: use case, activity đăng ký, activity đăng nhập, activity đặt hàng, sequence đặt hàng, class diagram) |
