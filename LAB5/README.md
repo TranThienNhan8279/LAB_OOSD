@@ -5,24 +5,21 @@
 - Lớp: 12_ĐH_CNPM2
 
 ## Nội dung
-Bài 6 - quản lý công ty du lịch. Làm đủ 6 câu UML, thiết kế CSDL SQL Server từ mô hình lớp, ứng dụng WinForms (C#, .NET Framework 4.7.2, kiến trúc Forms - Services - Data) và test case.
+Bài 6: làm 6 câu (class diagram, use case tổng quát, use case phân rã, activity, sequence), thiết kế CSDL SQL Server, làm app WinForms C# và viết test case.
 
-## Thư mục
-| Thư mục | Nội dung |
-|---|---|
-| `bao_cao/` | File Word trả lời 6 câu |
-| `diagrams/` | `LAB5_01 … LAB5_05_*.drawio (mỗi sơ đồ một file)` (5 trang: class, use case tổng quát, use case phân rã, activity, sequence), `ERD.drawio` và ảnh PNG |
-| `sql/` | `01_schema.sql` tạo CSDL, `02_seed.sql` dữ liệu mẫu, `03_test.sql` test ràng buộc |
-| `src/QuanLyDuLich/` | Mã nguồn WinForms |
-| `test/TestCases.md` | Test case và bảng truy vết |
+## File
+- `bao_cao/`: file Word bài làm
+- `diagrams/`: các sơ đồ draw.io, ERD và ảnh png
+- `sql/`: `01_schema.sql` tạo bảng, `02_seed.sql` dữ liệu mẫu, `03_test.sql` để test
+- `src/QuanLyDuLich/`: code
+- `test/TestCases.md`: test case
 
 ## Cách chạy
-1. Trong SSMS chạy `sql/01_schema.sql`, rồi `sql/02_seed.sql`.
-2. Sửa `Server=` trong `src/QuanLyDuLich/QuanLyDuLich/App.config` cho đúng máy.
-3. Mở `src/QuanLyDuLich/QuanLyDuLich.sln` bằng Visual Studio 2022 và nhấn F5.
-4. Chạy `sql/03_test.sql` để kiểm tra ràng buộc, sau đó làm theo `test/TestCases.md`.
+- Chạy `01_schema.sql` rồi `02_seed.sql` trong SSMS
+- Sửa `Server=` trong `App.config` cho đúng máy
+- Mở file `.sln` bằng Visual Studio rồi F5
 
-## Giả định
-- Khách lẻ tối đa 12 người, khách đoàn trên 12 người (đề không nói rõ đúng 12 người).
-- Tiền đặt cọc của đoàn là 30% tổng tiền (đề không nêu mức cọc).
+## Một số chỗ đề không nói rõ nên em tự quy ước
+- Khách lẻ tối đa 12 người, trên 12 người tính là khách đoàn.
+- Đoàn đặt cọc 30% tổng tiền.
 - Lương theo tour tính vào tháng của ngày đi.

@@ -3,28 +3,23 @@
 - Họ tên: Trần Thiện Nhân
 - MSSV: 1250080123
 - Lớp: 12_ĐH_CNPM2
-- Môn: Phương pháp phát triển phần mềm hướng đối tượng
 
 ## Nội dung
-Phân tích, thiết kế UML, CSDL SQL Server và ứng dụng WinForms (C#, .NET Framework 4.7.2, kiến trúc Forms → Services → Data).
+Bài 2: làm 6 câu (class diagram, use case tổng quát, use case phân rã, activity, sequence), thiết kế CSDL SQL Server, làm app WinForms C# và viết test case.
 
-Quy tắc chính: bán hàng theo tồn kho, thiếu hàng thì lập phiếu hẹn giao (nhiều đợt), đơn đặt hàng nhà cung ứng giao tối đa 3 đợt, chỉ khách quen được ghi nợ, mỗi hóa đơn tối đa 1 phiếu ghi nợ.
-
-## Thư mục
-| Thư mục | Nội dung |
-|---|---|
-| `bao_cao/` | File Word trả lời 6 câu |
-| `diagrams/` | `LAB8_01 … LAB8_05_*.drawio (mỗi sơ đồ một file)` (5 trang: class, use case tổng quát, use case phân rã, activity, sequence), `ERD.drawio` và ảnh PNG |
-| `sql/` | `01_schema.sql` tạo CSDL, `02_seed.sql` dữ liệu mẫu, `03_test.sql` test ràng buộc |
-| `src/CuaHangNuocGiaiKhat/` | Mã nguồn WinForms (file `.sln`) |
-| `test/TestCases.md` | Test case và bảng truy vết yêu cầu → UML → Form/Service → bảng → test |
+## File
+- `bao_cao/`: file Word bài làm
+- `diagrams/`: các sơ đồ draw.io, ERD và ảnh png
+- `sql/`: `01_schema.sql` tạo bảng, `02_seed.sql` dữ liệu mẫu, `03_test.sql` để test
+- `src/CuaHangNuocGiaiKhat/`: code
+- `test/TestCases.md`: test case
 
 ## Cách chạy
-1. Trong SSMS chạy lần lượt `sql/01_schema.sql`, `sql/02_seed.sql`.
-2. Sửa `Server=` trong `src/CuaHangNuocGiaiKhat/CuaHangNuocGiaiKhat/App.config` cho đúng máy.
-3. Mở `src/CuaHangNuocGiaiKhat/CuaHangNuocGiaiKhat.sln` bằng Visual Studio 2022, nhấn F5.
-4. Kiểm thử: chạy `sql/03_test.sql` (kết quả PASS/FAIL), rồi làm theo `test/TestCases.md`.
+- Chạy `01_schema.sql` rồi `02_seed.sql` trong SSMS
+- Sửa `Server=` trong `App.config` cho đúng máy
+- Mở file `.sln` bằng Visual Studio rồi F5
 
-## Giả định
-- Đợt giao thứ 3 của đơn đặt hàng phải giao đủ phần còn lại.
-- Khách quen và khách vãng lai gộp vào bảng `KhachHang` (cột `LoaiKhach`).
+## Một số chỗ đề không nói rõ nên em tự quy ước
+- Đơn đặt hàng nhà cung ứng giao tối đa 3 đợt, đợt 3 phải giao đủ.
+- Chỉ khách quen được ghi nợ, mỗi hóa đơn tối đa 1 phiếu ghi nợ.
+- Khách quen và khách vãng lai để chung bảng KhachHang.

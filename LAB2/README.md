@@ -1,12 +1,12 @@
-# LAB2 – Hệ thống quản lý thư viện
+# LAB2 - Quản lý thư viện
 
 - Họ tên: Trần Thiện Nhân
 - MSSV: 1250080123
 - Lớp: 12_ĐH_CNPM2
-- Môn: Phương pháp phát triển phần mềm hướng đối tượng
 
 ## Nội dung
-Liên kết các Form (FrmDocGia, FrmMuonTra, FrmSach, FrmTheLoai) với SQL Server.
+- Kết nối các form với SQL Server (FrmDocGia, FrmMuonTra, FrmSach, FrmTheLoai)
+- Làm giao diện các form
 
-## Thư mục
-- `bao_cao/`: file Word kèm ảnh chụp giao diện và CSDL.
+## File
+- `bao_cao/`: file Word có ảnh code và giao diện

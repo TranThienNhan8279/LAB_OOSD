@@ -1,22 +1,18 @@
-# LAB3 – Hệ thống quản lý khách sạn
+# LAB3 - Quản lý khách sạn
 
 - Họ tên: Trần Thiện Nhân
 - MSSV: 1250080123
 - Lớp: 12_ĐH_CNPM2
-- Môn: Phương pháp phát triển phần mềm hướng đối tượng
 
 ## Nội dung
-Ứng dụng WinForms (C#, .NET Framework 4.7.2) kết nối SQL Server: đặt phòng, tiện nghi, dịch vụ, trả phòng, hóa đơn, thanh toán, đền bù, thống kê.
+App WinForms C# kết nối SQL Server, gồm các chức năng: đặt phòng, phòng và tiện nghi, dịch vụ, trả phòng, hóa đơn, thống kê.
 
-## Thư mục
-- `diagrams/ERD.drawio`, `ERD.png`: sơ đồ CSDL (vẽ bằng draw.io).
-- `sql/QuanLyHotelDB.sql`: tạo CSDL và dữ liệu mẫu.
-- `src/QuanLyHotel/`: mã nguồn (Forms → Services → Data).
+## File
+- `diagrams/`: sơ đồ ERD (draw.io)
+- `sql/QuanLyHotelDB.sql`: tạo CSDL và dữ liệu mẫu
+- `src/QuanLyHotel/`: code
 
 ## Cách chạy
-1. Chạy `sql/QuanLyHotelDB.sql` trong SSMS để tạo CSDL `QuanLyHotelDB`.
-2. Sửa chuỗi kết nối trong `src/QuanLyHotel/QuanLyHotel/App.config`.
-3. Mở `QuanLyHotel.sln` bằng Visual Studio 2022, nhấn F5.
-
-## Các Form
-FrmMain, FrmDanhMuc, FrmPhongTienNghi, FrmDatPhong, FrmDichVu, FrmTraPhong, FrmThongKe.
+- Chạy file sql trong SSMS
+- Sửa chuỗi kết nối trong `App.config`
+- Mở `QuanLyHotel.sln` bằng Visual Studio rồi F5

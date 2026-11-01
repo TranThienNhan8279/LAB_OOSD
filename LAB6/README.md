@@ -1,29 +1,26 @@
-# LAB6 - Quản lý hồ sơ bệnh án của bệnh nhân
+# LAB6 - Quản lý hồ sơ bệnh án
 
 - Họ tên: Trần Thiện Nhân
 - MSSV: 1250080123
 - Lớp: 12_ĐH_CNPM2
 
 ## Nội dung
-Bài 5 - quản lý hồ sơ bệnh án của bệnh nhân. Làm đủ 6 câu UML, thiết kế CSDL SQL Server từ mô hình lớp, ứng dụng WinForms (C#, .NET Framework 4.7.2, kiến trúc Forms - Services - Data) và test case.
+Bài 5: làm 6 câu (class diagram, use case tổng quát, use case phân rã, activity, sequence), thiết kế CSDL SQL Server, làm app WinForms C# và viết test case.
 
-## Thư mục
-| Thư mục | Nội dung |
-|---|---|
-| `bao_cao/` | File Word trả lời 6 câu |
-| `diagrams/` | `LAB6_01 … LAB6_05_*.drawio (mỗi sơ đồ một file)` (5 trang: class, use case tổng quát, use case phân rã, activity, sequence), `ERD.drawio` và ảnh PNG |
-| `sql/` | `01_schema.sql` tạo CSDL, `02_seed.sql` dữ liệu mẫu, `03_test.sql` test ràng buộc |
-| `src/QuanLyBenhAn/` | Mã nguồn WinForms |
-| `test/TestCases.md` | Test case và bảng truy vết |
+## File
+- `bao_cao/`: file Word bài làm
+- `diagrams/`: các sơ đồ draw.io, ERD và ảnh png
+- `sql/`: `01_schema.sql` tạo bảng, `02_seed.sql` dữ liệu mẫu, `03_test.sql` để test
+- `src/QuanLyBenhAn/`: code
+- `test/TestCases.md`: test case
 
 ## Cách chạy
-1. Trong SSMS chạy `sql/01_schema.sql`, rồi `sql/02_seed.sql`.
-2. Sửa `Server=` trong `src/QuanLyBenhAn/QuanLyBenhAn/App.config` cho đúng máy.
-3. Mở `src/QuanLyBenhAn/QuanLyBenhAn.sln` bằng Visual Studio 2022 và nhấn F5.
-4. Chạy `sql/03_test.sql` để kiểm tra ràng buộc, sau đó làm theo `test/TestCases.md`.
+- Chạy `01_schema.sql` rồi `02_seed.sql` trong SSMS
+- Sửa `Server=` trong `App.config` cho đúng máy
+- Mở file `.sln` bằng Visual Studio rồi F5
 
-## Giả định
-- Lệ phí quản lý hằng năm là 200.000đ (đề không nêu số tiền).
-- Phải đóng lệ phí của năm hiện tại thì mới được lập phiếu khám và đặt lịch định kỳ.
-- Khi khám định kỳ, phiếu khám được lưu ở trạng thái "Hoàn tất" và loại "Định kỳ", không thu phí.
-- Thân nhiệt hợp lệ từ 30 đến 43 độ C.
+## Một số chỗ đề không nói rõ nên em tự quy ước
+- Lệ phí quản lý hằng năm là 200.000đ.
+- Phải đóng lệ phí năm hiện tại mới được khám và đặt lịch định kỳ.
+- Khám định kỳ không thu phí.
+- Thân nhiệt hợp lệ từ 30 đến 43 độ.

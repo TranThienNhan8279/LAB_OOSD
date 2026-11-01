@@ -5,27 +5,23 @@
 - Lớp: 12_ĐH_CNPM2
 
 ## Nội dung
-Bài 7 - quản lý nhân sự. Làm đủ 6 câu UML, thiết kế CSDL SQL Server từ mô hình lớp, ứng dụng WinForms (C#, .NET Framework 4.7.2, kiến trúc Forms - Services - Data) và test case.
+Bài 7: làm 6 câu (class diagram, use case tổng quát, use case phân rã, activity, sequence), thiết kế CSDL SQL Server, làm app WinForms C# và viết test case.
 
-## Thư mục
-| Thư mục | Nội dung |
-|---|---|
-| `bao_cao/` | File Word trả lời 6 câu |
-| `diagrams/` | `LAB7_01 … LAB7_05_*.drawio (mỗi sơ đồ một file)` (5 trang: class, use case tổng quát, use case phân rã, activity, sequence), `ERD.drawio` và ảnh PNG |
-| `sql/` | `01_schema.sql` tạo CSDL, `02_seed.sql` dữ liệu mẫu, `03_test.sql` test ràng buộc |
-| `src/QuanLyNhanSu/` | Mã nguồn WinForms |
-| `test/TestCases.md` | Test case và bảng truy vết |
+## File
+- `bao_cao/`: file Word bài làm
+- `diagrams/`: các sơ đồ draw.io, ERD và ảnh png
+- `sql/`: `01_schema.sql` tạo bảng, `02_seed.sql` dữ liệu mẫu, `03_test.sql` để test
+- `src/QuanLyNhanSu/`: code
+- `test/TestCases.md`: test case
 
 ## Cách chạy
-1. Trong SSMS chạy `sql/01_schema.sql`, rồi `sql/02_seed.sql`.
-2. Sửa `Server=` trong `src/QuanLyNhanSu/QuanLyNhanSu/App.config` cho đúng máy.
-3. Mở `src/QuanLyNhanSu/QuanLyNhanSu.sln` bằng Visual Studio 2022 và nhấn F5.
-4. Chạy `sql/03_test.sql` để kiểm tra ràng buộc, sau đó làm theo `test/TestCases.md`.
+- Chạy `01_schema.sql` rồi `02_seed.sql` trong SSMS
+- Sửa `Server=` trong `App.config` cho đúng máy
+- Mở file `.sln` bằng Visual Studio rồi F5
 
-## Giả định
-- Thử việc tối đa 60 ngày; nhân viên phải đủ 18 tuổi.
-- Bảo hiểm trích 10,5% lương (8% BHXH + 1,5% BHYT + 1% BHTN).
-- Lương giờ = lương / (26 ngày x 8 giờ); làm thêm tối đa 4 giờ mỗi ngày, hệ số 1.5.
-- Khen thưởng tập thể được chia đều cho nhân viên đang làm của phòng ban.
-- Tiền thưởng, tiền phạt tính vào tháng của ngày lập phiếu chi, phiếu thu.
-- Nhân viên chưa có hợp đồng thì tính lương thử việc, không có phụ cấp và bảo hiểm.
+## Một số chỗ đề không nói rõ nên em tự quy ước
+- Thử việc tối đa 60 ngày, nhân viên phải đủ 18 tuổi.
+- Bảo hiểm trừ 10,5% lương.
+- Làm thêm tối đa 4 giờ/ngày, hệ số 1.5.
+- Thưởng tập thể chia đều cho nhân viên trong phòng.
+- Chưa có hợp đồng thì tính lương thử việc.

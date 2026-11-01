@@ -1,20 +1,22 @@
 # LAB_OOSD
 
-Bài thực hành môn Phương pháp phát triển phần mềm hướng đối tượng – Trần Thiện Nhân, 12_ĐH_CNPM2.
+Repo bài thực hành môn Phương pháp phát triển phần mềm hướng đối tượng.
 
-| Lab | Đề tài |
-|---|---|
-| LAB0 | Cài đặt và kiểm tra môi trường (JDK, Maven, Git, IntelliJ) |
-| LAB1 | Đặc tả yêu cầu, Use Case (Bài 1, Bài 2) |
-| LAB2 | Quản lý thư viện |
-| LAB3 | Quản lý khách sạn |
-| LAB4 | e-SHOPPING |
-| LAB5 | Quản lý công ty du lịch |
-| LAB6 | Quản lý hồ sơ bệnh án |
-| LAB7 | Quản lý nhân sự |
-| LAB8 | Quản lý cửa hàng nước giải khát |
+- Họ tên: Trần Thiện Nhân
+- MSSV: 1250080123
+- Lớp: 12_ĐH_CNPM2
 
-Mỗi thư mục LABn có `README.md`; nếu có thì gồm `bao_cao/` (Word), `diagrams/` (draw.io + PNG), `sql/`, `src/`, `test/`.
-Mọi sơ đồ được vẽ bằng draw.io (file `.drawio` kèm ảnh `.png`).
+## Các bài lab
+- LAB0: cài đặt và kiểm tra môi trường (JDK, Maven, Git, IntelliJ)
+- LAB1: đặc tả yêu cầu, use case (bài 1 thư viện, bài 2 cửa hàng nước giải khát)
+- LAB2: quản lý thư viện
+- LAB3: quản lý khách sạn
+- LAB4: e-SHOPPING
+- LAB5: quản lý công ty du lịch
+- LAB6: quản lý hồ sơ bệnh án
+- LAB7: quản lý nhân sự
+- LAB8: quản lý cửa hàng nước giải khát
 
-File Word tổng hợp các lab: `tong_ket/1250080123_TranThienNhan_CNPM2_TonghopLAB.docx`. File sơ đồ draw.io của các lab nằm trong thư mục `IMAGES/`.
+## Ghi chú
+- Sơ đồ vẽ bằng draw.io, file gốc để trong thư mục `IMAGES`.
+- File Word tổng hợp: `tong_ket/1250080123_TranThienNhan_CNPM2_TonghopLAB.docx`
