@@ -10,3 +10,4 @@ Khảo sát và phân tích yêu cầu hệ thống cửa hàng online e-SHOPPIN
 
 ## Thư mục
 - `bao_cao/`: file Word phân tích yêu cầu.
+- `diagrams/`: sơ đồ draw.io (`LAB4_UML.drawio`, 6 trang: use case, 3 activity, sequence, class) và ảnh PNG xuất từ file này; file Word dùng đúng các ảnh này.
